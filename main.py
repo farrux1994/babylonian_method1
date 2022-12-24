@@ -1,6 +1,9 @@
-# babyloniam method
+def main(S, d):
+    a = (S-d*d)/(2*d)
+    b = a+d
+    x = b-(a*a)/(2*b)
 
-# The variables are S and d given
+    return x
 
-S = 0
-d = 0
+k = main(16, 4)
+print(k)
